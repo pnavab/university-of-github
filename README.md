@@ -2,6 +2,7 @@
 We'll be making an API that simulates flipping a coin. First we must gather all required dependencies in case we do not already have it on our computer. Pip is a package manager for Python packages.  
 - Install FastAPI by running `pip install fastapi`
 - Install uvicorn by running `pip install uvicorn`  
+
 If you do not have pip, install or upgrade your version of Python to the latest version.
 
 # Getting started
@@ -77,7 +78,7 @@ The endpoint should automatically reload every time you save a change to the cod
 # Flip Coins (plural) Endpoint
 Now we'll make a third endpoint that uses query parameters to determine how many times we will flip a coin. Query parameters are key-value pairs in a URL that follow an endpoint. For example, in `www.domain.com/endpoint?variable=value`, the parameter name `variable` holds the parameter value of `value` which we access through the parameter name. Query parameters can also be chained using `&`, for example `www.domain.com/endpoint?var1=val1&var2=val2`.
 
-Accessing query parameters from an endpoint varies on the language and framework, but for FastAPI, we define the query parameters we want to access in the function's parameters. Declaring the data type also allows the endpoint to convert the value to that type and validate against it. Our new `"/flip-coins` endpoint will have a `times` parameter that we give a value to, such as `?times=10`. 
+Accessing query parameters from an endpoint varies on the language and framework, but for FastAPI, we define the query parameters we want to access in the function's parameters. Declaring the data type also allows the endpoint to convert the value to that type and validate against it. Our new `"/flip-coins"` endpoint will have a `times` parameter that we give a value to, such as `?times=10`. 
 ```
 @app.get("/flip-coins")
 def flip_coins(times: int):
