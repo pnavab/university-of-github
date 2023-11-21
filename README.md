@@ -2,6 +2,7 @@
 We'll be making an API that simulates flipping a coin. First we must gather all required dependencies in case we do not already have it on our computer
 - Install FastAPI by running `pip install fastapi`
 - Install uvicorn by running `pip install uvicorn`
+If you do not have pip, install or upgrade your version of Python to the latest version.
 
 # Getting started
 At the top of our code, we need to define the imports. FastAPI is used for creating API endpoints, and uvicorn allows FastAPI to handle the browser requests. Random is for simulating the coin flipping.
