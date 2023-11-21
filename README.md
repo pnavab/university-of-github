@@ -1,7 +1,7 @@
 # Before starting
-We'll be making an API that simulates flipping a coin. First we must gather all required dependencies in case we do not already have it on our computer
+We'll be making an API that simulates flipping a coin. First we must gather all required dependencies in case we do not already have it on our computer. Pip is a package manager for Python packages.  
 - Install FastAPI by running `pip install fastapi`
-- Install uvicorn by running `pip install uvicorn`
+- Install uvicorn by running `pip install uvicorn`  
 If you do not have pip, install or upgrade your version of Python to the latest version.
 
 # Getting started
