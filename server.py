@@ -5,7 +5,8 @@ import random
 
 app = FastAPI()
 
-origins = ["*"]  # You can replace "*" with your frontend domain(s)
+# This middleware is required in order to accept requests from other domains such as a React app running on 'localhost:3000'
+origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
