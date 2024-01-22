@@ -177,5 +177,5 @@ When you run it with max verbosity using `python server.py --reload True -vvv` a
 
 # Overview
 
-With Argparse, you are able to set custom command line flags. You can make them required or not, have specified data types, or even treat the flag itself as a count of how many times it was used. To see it all come together in the command line, you can run `python server.py -h` and it will show all the help messages you have defined.
+With Argparse, you are able to set custom command line flags. You can make them required or not, have specified data types, or even treat the flag itself as a count of how many times it was used. To see it all come together in the command line, you can run `python server.py -h` and it will show all the help messages you have defined.  
 ![Alt text](image-2.png)
