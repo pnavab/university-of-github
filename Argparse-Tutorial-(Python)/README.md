@@ -24,7 +24,7 @@ if __name__ == "__main__":
 Before creating any endpoints, let's add some argparse functionality in. 
 
 # Setting up Argparse
-Argparse is a Python library for adding command line arguments as flags to a Python file. We will create custom flags for the Uvicorn run command, logging verbosity, and optionally disabling a certain functionality.  
+Argparse is a Python library for adding command line arguments as flags to a Python file. We will create custom flags for the Uvicorn run command and verbosity of logs.  
 
 We'll start off by creating a new file, `args.py`, which will hold a function to parse the terminal for the flags we will define and store the values accordingly.
 
