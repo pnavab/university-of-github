@@ -169,10 +169,10 @@ if __name__ == "__main__":
     uvicorn.run("server:app", host=args.host, port=args.port, reload=args.reload)
 ```
 
-Try running the server with varying amounts of `-v` flags. Go to `localhost:8000/logging-levels` and check the terminal. With no verbosity flag specified, there will only be an ERROR log.
+Try running the server with varying amounts of `-v` flags. Go to `localhost:8000/logging-levels` and check the terminal. With no verbosity flag specified, there will only be an ERROR log.  
 ![Alt text](image.png)
 
-When you run it with max verbosity using `python server.py --reload True -vvv` and go to the `/logging-levels` endpoint, you will see all the logs in the terminal.
+When you run it with max verbosity using `python server.py --reload True -vvv` and go to the `/logging-levels` endpoint, you will see all the logs in the terminal.  
 ![Alt text](image-1.png)
 
 # Overview
