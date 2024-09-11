@@ -48,7 +48,7 @@ def root():
     return({ "message": "hello world" })
 
 if __name__ == "__main__":
-uvicorn.run("server:app", port=8000, reload=True)
+    uvicorn.run("server:app", port=8000, reload=True)
 ```
 
 Now open a terminal in the project directory and run `python {file_name}.py`, which is running on port 8000. Open a browser and go to `localhost:8000`. You should see the JSON output we defined at the "/" endpoint.
